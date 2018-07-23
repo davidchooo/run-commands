@@ -1,4 +1,6 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#Aliases
+alias cdrive="cd /mnt/c/Users/david"
+
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 

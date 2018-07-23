@@ -51,7 +51,6 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 
 "Use <Enter> to insert newline below while staying in normal mode
@@ -59,7 +58,6 @@ nnoremap <CR> o<Esc>
 
 "Use <j><k> as <Esc>
 :imap jk <Esc>
-:imap kj <Esc>
 
 execute pathogen#infect()
 

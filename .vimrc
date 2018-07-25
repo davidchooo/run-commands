@@ -41,6 +41,7 @@ set t_vb=
 set cmdheight=2
 
 set number
+set relativenumber
 
 set notimeout ttimeout ttimeoutlen=200
 

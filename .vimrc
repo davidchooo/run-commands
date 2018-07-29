@@ -60,6 +60,19 @@ nnoremap <CR> o<Esc>
 "Use <j><k> as <Esc>
 :imap jk <Esc>
 
+"inoremap ;; <END>;
+"inoremap ,, <END>,
+
+"autocompletion
+inoremap (; (<CR>);<C-c>O
+inoremap (, (<CR>),<C-c>O
+inoremap {; {<CR>};<C-c>O
+inoremap {, {<CR>},<C-c>O
+inoremap [; [<CR>];<C-c>O
+inoremap [, [<CR>],<C-c>O
+inoremap {{ {<CR>}<C-c>O
+
+
 execute pathogen#infect()
 
 "syntastic settings

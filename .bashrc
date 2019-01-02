@@ -1,5 +1,11 @@
 #Aliases
+alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt full-grade && sudo apt autoremove"
+#only for WSL
+alias open="cmd.exe /C"
+alias o="open"
 alias cdrive="cd /mnt/c/Users/david"
+alias ece391="cd /mnt/c/Users/david/Desktop/UIUC/junior2018/ece391/ece391vm/ece391_share/work"
+alias cs225="cd /mnt/c/Users/david/Desktop/CS225"
 
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -198,6 +204,6 @@ On_Iwhite="\[\033[0;107m\]"
 # Change command prompt
 source ~/git-prompt.sh  #allows commit IDs to show up
 export GIT_PS1_SHOWDIRTYSTATE=1     #shows whether all changes have been saved
-export PS1="$Bgreen\u$purple\$(__git_ps1)$cyan \W $ $Bred"
+export PS1="$Bgreen\u$purple\$(__git_ps1)$cyan \W $ $Bwhite"
 _COLORS="ow=01;36;40" && export LS_COLORS
 

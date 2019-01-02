@@ -64,24 +64,25 @@ nnoremap <CR> o<Esc>
 "inoremap ,, <END>,
 
 "autocompletion
-inoremap (; (<CR>);<C-c>O
-inoremap (, (<CR>),<C-c>O
-inoremap {; {<CR>};<C-c>O
-inoremap {, {<CR>},<C-c>O
-inoremap [; [<CR>];<C-c>O
-inoremap [, [<CR>],<C-c>O
-inoremap {{ {<CR>}<C-c>O
+"inoremap (; (<CR>);<C-c>O
+"inoremap (, (<CR>),<C-c>O
+"inoremap {; {<CR>};<C-c>O
+"inoremap {, {<CR>},<C-c>O
+"inoremap [; [<CR>];<C-c>O
+"inoremap [, [<CR>],<C-c>O
+"inoremap {{ {<CR>}<C-c>O
+"inoremap (( ()<Esc>i
 
 
 execute pathogen#infect()
 
 "syntastic settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+"let g:syntastic_enable_signs=1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_wq = 0
+"let g:syntastic_cpp_compiler = 'clang++'
+"let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'

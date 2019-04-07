@@ -60,6 +60,10 @@ nnoremap <CR> o<Esc>
 "Use <j><k> as <Esc>
 :imap jk <Esc>
 
+"Ctrl+K for commenting
+nnoremap <C-K> 0<C-V>I#<Esc>
+vmap <C-K> 0<C-V>I#<Esc>
+
 "inoremap ;; <END>;
 "inoremap ,, <END>,
 
